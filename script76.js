@@ -1,0 +1,6 @@
+let i = 10;
+do {
+  myArray.push(i);
+  i++;}
+// Only change code below this line
+while (i < 5) ; 
