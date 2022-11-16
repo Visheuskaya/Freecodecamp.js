@@ -1,3 +1,3 @@
-let extractStr = "Extract the word 'coding' from this string.";
-let codingRegex = /coding/; // Change this line
-let result = extractStr.match(codingRegex); // Change this line
+let myArray = [1, 2, 3];
+let arraySum = myArray.reduce((previous, current) =>(previous + current));
+console.log(`Sum of array values is: ${arraySum}`);

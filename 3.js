@@ -1,3 +1,6 @@
-let petString = "James has a pet cat.";
-let petRegex = /dog|cat|brid|fish/; // Change this line
-let result = petRegex.test(petString);
+let seven = 7;
+let three = "3";
+console.log(seven + three);
+// Only change code below this line
+console.log(typeof seven);
+console.log(typeof three);

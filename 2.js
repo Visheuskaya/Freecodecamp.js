@@ -1,3 +1,3 @@
-let waldoIsHiding = "Somewhere Waldo is hiding in this text.";
-let waldoRegex = /Waldo/; // Change this line
-let result = waldoRegex.test(waldoIsHiding);
+let output = "Get this to show once in the freeCodeCamp console and not at all in the browser console";
+console.log(output);
+console.clear();
