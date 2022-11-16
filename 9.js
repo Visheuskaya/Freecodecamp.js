@@ -1,3 +1,8 @@
-let quoteSample = "Beware of bugs in the above code; I have only proved it correct, not tried it.";
-let vowelRegex = /[aeiou]/gi; // Change this line
-let result = quoteSample.match(vowelRegex); 
+function raiseToPower(b, e) {
+   return Math.pow(b, e);
+ }
+ 
+ let base = 2;
+ let exp = 3;
+ let power = raiseToPower(base, exp);
+ console.log(power);

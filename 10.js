@@ -1,3 +1,11 @@
-let quoteSample = "The quick brown fox jumps over the lazy dog.";
-let alphabetRegex = /[a-z]/gi; // Change this line
-let result = quoteSample.match(alphabetRegex); // Change this line
+function countToFive() {
+   let firstFive = "12345";
+   let len = firstFive.length;
+   // Only change code below this line
+   for (let i = 0; i < len; i++) {
+   // Only change code above this line
+     console.log(firstFive[i]);
+   }
+ }
+ 
+ countToFive();

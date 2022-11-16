@@ -1,3 +1,3 @@
-let twinkleStar = "Twinkle, twinkle, little star";
-let starRegex = /Twinkle/gi; // Change this line
-let result = twinkleStar.match(twinkleStar); 
+let myArray = [1, 2, 3];
+let arraySum = myArray.reduce((previous, current) =>(previous + current));
+console.log(`Sum of array values is: ${arraySum}`);

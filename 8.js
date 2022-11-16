@@ -1,3 +1,8 @@
-let exampleStr = "Let's have fun with regular expressions!";
-let unRegex = /.un/; // Change this line
-let result = unRegex.test(exampleStr);
+function getNine() {
+   let x = 6;
+   let y = 3;
+   return x + y;
+ }
+ 
+ let result = getNine();
+ console.log(result);

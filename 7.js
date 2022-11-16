@@ -1,3 +1,11 @@
-let twinkleStar = "Twinkle, twinkle, little star";
-let starRegex = /twinkle/gi; // Change this line
-let result = twinkleStar.match(starRegex); 
+let x = 7;
+let y = 9;
+let result = "to come";
+
+if(x === y) {
+  result = "Equal!";
+} else {
+  result = "Not equal!";
+}
+
+console.log(result);
