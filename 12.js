@@ -1,3 +1,5 @@
-let quoteSample = "3 blind mice.";
-let myRegex = /[^1-9aeiou]/gi; // Change this line
-let result =quoteSample.match(myRegex);
+function myFunc() {
+   for (let i = 1; i <= 4; i += 2) {
+     console.log("Still going!");
+   }
+ }
