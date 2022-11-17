@@ -1,4 +1,7 @@
-let receivables = 10;
-let payables = 8;
-let netWorkingCapital = receivables - payables;
-console.log(`Net working capital is: ${netWorkingCapital}`);
+let dog = {
+   name: "Spot",
+   numLegs: 4,
+   sayLegs: function() {return "This dog has " + this.numLegs + " legs.";}
+ };
+ 
+ dog.sayLegs();
