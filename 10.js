@@ -1,11 +1,18 @@
-function countToFive() {
-   let firstFive = "12345";
-   let len = firstFive.length;
-   // Only change code below this line
-   for (let i = 0; i < len; i++) {
-   // Only change code above this line
-     console.log(firstFive[i]);
-   }
+function Dog(name) {
+   this.name = name;
  }
  
- countToFive();
+ Dog.prototype.numLegs = 4;
+ 
+ let beagle = new Dog("Snoopy");
+ 
+ let ownProps = [];
+ let prototypeProps = [];
+ 
+ for (let property in beagle) {
+   if(beagle.hasOwnProperty(property)) {
+     ownProps.push(property);
+   } else {
+     prototypeProps.push(property);
+   }
+ }
