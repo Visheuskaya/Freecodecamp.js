@@ -1,8 +1,6 @@
-function getNine() {
-   let x = 6;
-   let y = 3;
-   return x + y;
+function House(numBedrooms) {
+   this.numBedrooms = numBedrooms;
  }
- 
- let result = getNine();
- console.log(result);
+ let myHouse = new House(1, 2);
+ myHouse instanceof House;
+ // Only change code below this line

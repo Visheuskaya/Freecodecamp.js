@@ -1,3 +1,7 @@
-let myArray = [1, 2, 3];
-let arraySum = myArray.reduce((previous, current) =>(previous + current));
-console.log(`Sum of array values is: ${arraySum}`);
+function Dog() {
+   this.name = "Rupert";
+   this.color = "brown";
+   this.numLegs = 4;
+ }
+ // Only change code below this line
+ let hound = new Dog();

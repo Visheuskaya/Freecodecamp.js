@@ -1,8 +1,8 @@
-function raiseToPower(b, e) {
-   return Math.pow(b, e);
+function Dog(name) {
+   this.name = name;
  }
+ Dog.prototype.numLegs = 4;
  
- let base = 2;
- let exp = 3;
- let power = raiseToPower(base, exp);
- console.log(power);
+ 
+ // Only change code above this line
+ let beagle = new Dog("Snoopy");

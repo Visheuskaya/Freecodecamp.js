@@ -1,11 +1,6 @@
-let x = 7;
-let y = 9;
-let result = "to come";
-
-if(x === y) {
-  result = "Equal!";
-} else {
-  result = "Not equal!";
-}
-
-console.log(result);
+function Dog(name, color) {
+   this.name = name;
+     this.color = color;
+     this.numLegs = 4;
+   }
+   let terrier = new( Dog);
