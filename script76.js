@@ -1,6 +1,13 @@
-let i = 10;
-do {
-  myArray.push(i);
-  i++;}
-// Only change code below this line
-while (i < 5) ; 
+function lookUpProfile(name, prop) {
+    // Only change code below this line
+  for (let x = 0; x < contacts.length; x++) {
+      if (contacts[x].firstName === name) {
+        if (contacts[x].hasOwnProperty(prop)) {
+          return contacts[x][prop];
+        } else {
+          return "No such property";
+        }
+      }
+    }
+    return "No such contact";
+  }
