@@ -1,7 +1,10 @@
-let dog = {
-   name: "Spot",
-   numLegs: 4
- };
- // Only change code below this line
- console.log(dog.name);
- console.log(dog.numLegs);
+function quickCheck(arr, elem) {
+    // Only change code below this line
+   if (arr.indexOf(elem) >= 0) {
+      return true;
+    }
+    return false;
+  }
+    // Only change code above this line
+  
+  console.log(quickCheck(['squash', 'onions', 'shallots'], 'mushrooms'));
